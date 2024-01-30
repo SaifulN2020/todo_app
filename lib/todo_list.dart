@@ -16,7 +16,7 @@ class _TodoListState extends State<TodoList> {
         itemBuilder: (context,index){
             return ListTile(
               title: Text("Todo Title"),
-              subtitle:Column(
+              subtitle: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
 
